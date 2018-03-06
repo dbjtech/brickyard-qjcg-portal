@@ -1,0 +1,53 @@
+#aboutUs {
+	ul {
+		padding-left: 20px;
+	}
+	#company-profile {
+		.img {
+			margin: 80px;
+			text-align: center;
+		}
+		.text {
+			padding: 0 50px 50px 50px;
+			h4 {
+				font-weight: bold;
+				font-size: $font-size-3;
+			}
+			p {
+				font-size: $font-size-4;
+			}
+			h4, p {
+				margin-bottom: 20px;
+				color: #232323;
+				line-height: 35px;
+			}
+		}
+	}
+	#contact-us {
+		.text {
+			margin: 70px 0;
+			text-align: center;
+			h4 {
+				font-size: 32px;
+				font-weight: 100;
+				line-height: 50px;
+			}
+		}
+		.row {
+			.img {
+				text-align: center;
+				margin: 30px;
+			}
+		}
+		.bMapBox {
+			margin: 20px 0 10px 20px;
+			img {
+				max-width: none;
+			}
+			#bMap {
+				height: 400px;
+				border: 1px solid #a0a1a3;
+			}
+		}
+	}
+}

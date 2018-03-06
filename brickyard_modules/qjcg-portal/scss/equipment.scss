@@ -1,0 +1,35 @@
+#equipment {
+	h4 {
+		line-height: 35px;
+		font-size: $font-size-3;
+	}
+	.china-map {
+		.text {
+			color: #303131;
+			padding: 80px 50px;
+		}
+	}
+	.icons {
+		.text {
+			color: #fff;
+			padding: 50px;
+		}
+	}
+	.equipment-contrast {
+		padding: 30px 0;
+		font-size: 14px;
+		p {
+			color: $color-blue;
+		}
+		table {
+			td, th {
+				line-height: 35px;
+			}
+			tbody {
+				tr td:nth-child(1) {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

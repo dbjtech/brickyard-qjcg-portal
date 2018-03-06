@@ -1,0 +1,79 @@
+#feature {
+	section {
+		h4 {
+			font-size: $font-size-2;
+		}
+		p {
+			font-size: $font-size-4;
+			color: #3b3d3d;
+		}
+		.img {
+			text-align: center;
+		}
+	}
+	.btnList {
+		.container {
+			padding: 40px 0;
+			border-bottom: 1px dashed #343433;
+		}
+		a.btn {
+			padding: 16px 20px;
+			i {
+				font-size: 22px;
+				margin: 0 5px;
+			}
+		}
+	}
+
+	.tis {
+		.text {
+			h4 {
+				color: $color-orange;
+				margin-bottom: 60px;
+			}
+			.p2 {
+				margin-top: 45px;
+			}
+		}
+	}
+
+	.cloud-services {
+		background: #303131;
+		.img {
+			margin-top: 115px;
+		}
+		@media (max-width: 992px) {
+			.img {
+				margin: 0 0 20px 0;
+			}
+		}
+		.text {
+			h4 {
+				color: $color-green;
+				margin-bottom: 65px;
+			}
+			p {
+				color: #fff;
+			}
+			.p2 {
+				margin-top: 50px;
+			}
+		}
+	}
+
+	.cross-platform {
+		background: #fff;
+
+		.text {
+			h4 {
+				color: $color-orange;
+				line-height: 50px;
+			}
+			p {
+				color: #3b3d3d;
+				margin-top: 50px;
+			}
+
+		}
+	}
+}

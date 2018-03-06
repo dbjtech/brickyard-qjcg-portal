@@ -1,0 +1,30 @@
+#solution {
+	h4 {
+		font-size: $font-size-3;
+		color: #292929;
+		line-height: 50px;
+		&:nth-child(1) {
+			margin-top: 50px;
+		}
+		@media (max-width: 992px) {
+			&:nth-child(1) {
+				margin-top: 0;
+			}
+		}
+	}
+	.insurance {
+		h4:nth-child(1) {
+			margin-top: 20px;
+		}
+	}
+	.img {
+		text-align: center;
+	}
+
+	.rtls, .track {
+		background: #313131;
+		h4 {
+			color: #fff;
+		}
+	}
+}

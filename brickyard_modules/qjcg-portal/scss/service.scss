@@ -1,0 +1,25 @@
+.service-info {
+	h2 {
+		font-size: 24px;
+		margin: 70px 0 40px 0;
+		text-align: center;
+	}
+	h3, h4, p, li {
+		font-size: 20px;
+	}
+	p {
+		text-indent: 40px;
+	}
+	h3 {
+		margin: 45px 0;
+	}
+	ul {
+		padding: 0;
+	}
+	ul > li {
+		margin-bottom: 45px;
+	}
+	.p_bottom {
+		margin-top: 45px;
+	}
+}
