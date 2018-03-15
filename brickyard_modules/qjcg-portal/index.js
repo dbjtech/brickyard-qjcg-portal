@@ -11,7 +11,7 @@ require('bootstrap')
 require('wowjs')
 
 // 封装百度统计埋点方法
-window.installAnalytics = function () {
+document.addEventListener('DOMContentLoaded',function () {
     var _hmt = _hmt || [];
     (function () {
         var hm = document.createElement('script');
@@ -21,8 +21,7 @@ window.installAnalytics = function () {
         } else {
             hm.src = '//hm.baidu.com/hm.js?cdf46b1888db7c5b72377c15299f3e32'
         }
-        console.log(hm.src)
         var firstScript = document.getElementsByTagName('script')[0];
         firstScript.parentNode.insertBefore(hm, firstScript);
     })();
-}
+})
