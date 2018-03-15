@@ -131,16 +131,12 @@
     </div>
     <img id="marker-icon" src="images/aboutUs/marker.png" style="display: none;" />
 </body>
+
+<script src="./index.js"></script>
 <script type="text/javascript">
     $(function(){
         // 嵌入script为百度统计埋点
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement('script');
-            hm.src ='//hm.baidu.com/hm.js?70fd7de5d5d3c9fe153258281c8e8c3e”;'
-            var firstScript = document.getElementsByTagName('script')[0];
-            firstScript.parentNode.insertBefore(hm, firstScript);
-        })();
+        installAnalytics()
 
         var windowHeight = $(window).height(),
                 wow = new WOW({offset: windowHeight / 10});
