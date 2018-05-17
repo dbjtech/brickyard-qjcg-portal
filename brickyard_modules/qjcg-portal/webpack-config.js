@@ -18,7 +18,7 @@ module.exports = {
 function HtmlWebpackPluginConfig (path) {
 	return {
 		filename: path,
-		template: `html-loader?attrs=img:src!${__dirname}/${path}`,
+		template: `html-loader?interpolate&attrs=img:src!${__dirname}/${path}`,
 		inject: 'head',
 	}
 }

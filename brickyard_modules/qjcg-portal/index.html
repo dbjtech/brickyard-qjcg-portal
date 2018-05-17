@@ -229,15 +229,7 @@
         </div>
 
         <!--footer-->
-        <footer class="footer">
-            <div class="footer-nav">
-                <a href="aboutUs.html">关于我们</a><a href="faq.html">常见问题</a><a href="service.html">服务协议</a><a href="download.html">下载应用</a>
-            </div>
-            <div class="footer-sub">
-                <div class="footer-logo"></div>
-                <p>©2015珠海德百祺科技有限公司 粤ICP备12019898号</p>
-            </div>
-        </footer>
+        ${require('html-loader!./portlet/footer.html')}
     </div>
 </body>
 <script>
@@ -250,7 +242,7 @@
                 sizeElem = document.getElementById('size'),
                 responseElem = document.getElementById('response'),
                 phonePattern = /^(?:13[0-9]|15[0-35-9]|17[06-8]|18[0-9]|14[57])[0-9]{8}$|^([6|9])\d{7}$/,
-                emailPattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+                emailPattern = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$/;
 
         checkContact()
         $(responseElem).hide()
