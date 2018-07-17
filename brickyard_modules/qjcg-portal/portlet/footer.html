@@ -4,13 +4,13 @@
 	</div>
 	<div class="footer-sub">
 		<div class="footer-logo"></div>
-		<p class="copyright">©2015珠海德百祺科技有限公司 粤ICP备12019898号</p>
+		<p class="copyright">©2015珠海德百祺科技有限公司 <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备12019898号</a></p>
 	</div>
 </footer>
 <script>
 	$(function() {
 		// set copyright
-		var copyright = '©2015-' + new Date().getFullYear() + ' 珠海德百祺科技有限公司 粤ICP备12019898号'
+		var copyright = $('.copyright').html().replace(/^©2015/, '©2015-' + new Date().getFullYear())
 		$('.copyright').html(copyright)
 	})
 </script>
